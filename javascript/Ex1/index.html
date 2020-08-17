@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript - 01</title>
+
+	<style type="text/css">
+		h2 {
+			color: #CF001E;
+			font-style: oblique;
+		}
+	</style>
+</head>
+<body>
+<h1>Exemplo de Javascript usando document.write</h1>
+<h2>Nota do aluno = 9</h2>
+<h3>Se for maior que 7 o aluno será aprovado</h3>
+<script type="text/javascript">
+	document.write("<h2>Escola</h2>");
+	document.write("<br>");
+	aluno = "João";
+	nota = 9;
+	document.write("O Aluno " + aluno + " ficou com nota " + nota);
+	if(nota >= 7){
+		document.write("<br> parabéns "+ aluno);
+	}
+	else{
+		document.write("<br>Infelizmente você terá que fazer a prova");
+	}
+</script>
+</body>
+</html>

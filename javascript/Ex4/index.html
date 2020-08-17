@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<label>MEDIA</label>
+		<input type="button" value="Ver media" OnClick="nota();">
+	</form>
+</body>
+<script>
+	function nota()
+	{
+		var Nota1;
+		var Nota2;
+		var Nota3;
+		
+		Aluno = prompt("Digite o nome do Aluno: ");
+		Nota1 = Number(prompt("Digite a primeira nota: "))
+		if(Nota1 == ""){
+			document.write("Nota em branco");
+		}
+		else{
+			document.write("A Nota digitada foi:" +Nota1 +"<br>");
+		}
+		Nota2 = Number(prompt("Digite a segunda nota: "))
+		if(Nota2 == ""){
+			document.write("Nota em branco");
+		}
+		else{
+			document.write("A Nota digitada foi:" +Nota2 +"<br>");
+		}
+		Nota3 = Number(prompt("Digite a terceira nota: "))
+		if(Nota3 == ""){
+			document.write("Nota em branco");
+		}
+		else{
+			document.write("A Nota digitada foi:" +Nota3 +"<br>");
+		}
+		nota =(Nota1 + Nota2 + Nota3) / 3;
+		document.write("Resultado: " +nota);                                                                                                             
+			if(nota < 5){
+				alert(Aluno + "esta REPROVADO");
+			}
+			
+			 else if(nota >= 5 && nota < 7){
+			 	alert(Aluno + " esta de RECUPERACAO");
+			 }
+			
+			 else{
+			alert(Aluno + " esta APROVADO");
+			}
+	}
+</script>
+</html>

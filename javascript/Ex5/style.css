@@ -1,0 +1,35 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: rgb(216, 216, 216);
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-size: 35px;
+	text-align: center;
+	background: rgb(50, 50, 139);
+	color: rgb(255, 254, 254);
+}
+
+form{
+	padding: 20px;
+	text-align-last: left;
+	width: 300px;
+	height: 300px;
+	font-size: 32px ;
+	background: rgb(137, 231, 255);
+	color: darkblue;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+input{
+	font-size: 25px;
+	text-align: right;
+	background: rgb(105, 47, 160);
+	color: rgb(0, 255, 98);
+	border-radius: 5px;
+	border: none;
+}

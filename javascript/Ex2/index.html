@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nota Bimestral - Prompt</title>
+</head>
+<body>
+<script type="text/javascript">
+	aluno = prompt("Digite o nome do aluno");
+	n1 = Number(prompt("Digite a nota 1"));
+	n2 = Number(prompt("Digite a nota 2"));
+	m = (n1 + n2) / 2;
+	console.log("Media de ${aluno}: ${m}");
+	if(m < 5){
+		alert(aluno + "esta REPROVADO")
+	} else if(m >= 5 && m < 7){
+		alert(aluno + " esta de RECUPERACAO")
+	} else{
+		alert(aluno + " esta APROVADO")
+	}
+</script>
+</body>
+</html>

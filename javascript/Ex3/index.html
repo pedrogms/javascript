@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript - function</title>
+	<script>
+		function nome()
+		{
+			var nome;
+			nome=prompt("Digite nome");
+			if(nome == "")
+			{
+				document.write("Nome em branco");
+
+			}
+			else {
+				document.write("O nome digitado: "  +nome);
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<label>NOME</label>
+		<input type="text" name="Nome" size="30"><br>
+
+		<input type="button" value="verificar" onClick="nome();">
+	</form>	
+
+</body>
+</html>
